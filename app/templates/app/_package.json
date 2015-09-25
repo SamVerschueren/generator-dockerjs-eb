@@ -1,0 +1,18 @@
+{
+  "name": "<%= functionName %>",
+  "version": "0.0.1",
+  "description": "<%= functionDescription %>",
+  "license": "MIT",
+  "author": {
+    "name": "<%= name %>",
+    "email": "<%= email %>"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "keywords": [
+<% keywords.forEach(function(keyword, i) { -%>
+    "<%= keyword %>"<%= i < keywords.length-1 ? ',' : '' %>
+<% }); -%>
+  ]
+}

@@ -25,5 +25,9 @@
   "bugs": {
     "url": "https://github.com/SamVerschueren/generator-dockerjs-eb/issues"
   },
-  "homepage": "https://github.com/SamVerschueren/generator-dockerjs-eb#readme"
+  "homepage": "https://github.com/SamVerschueren/generator-dockerjs-eb#readme",
+  "dependencies": {
+    "moment": "^2.10.6",
+    "yeoman-generator": "^0.20.3"
+  }
 }
