@@ -1,0 +1,29 @@
+{
+  "name": "generator-dockerjs-eb",
+  "version": "0.1.0",
+  "description": "Elastic Beanstalk generator for a Dockerized NodeJS application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamVerschueren/generator-dockerjs-eb.git"
+  },
+  "keywords": [
+    "yeoman-generator",
+    "template",
+    "scaffold",
+    "aws",
+    "elastic beanstalk",
+    "eb",
+    "docker",
+    "nodejs"
+  ],
+  "author": "Sam Verschueren",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SamVerschueren/generator-dockerjs-eb/issues"
+  },
+  "homepage": "https://github.com/SamVerschueren/generator-dockerjs-eb#readme"
+}
