@@ -28,6 +28,7 @@
   "homepage": "https://github.com/SamVerschueren/generator-dockerjs-eb#readme",
   "dependencies": {
     "moment": "^2.10.6",
+    "uppercamelcase": "^1.1.0",
     "yeoman-generator": "^0.20.3"
   }
 }
