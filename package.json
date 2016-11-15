@@ -1,6 +1,6 @@
 {
   "name": "generator-dockerjs-eb",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Elastic Beanstalk generator for a Dockerized NodeJS application",
   "license": "MIT",
   "repository": "SamVerschueren/generator-dockerjs-eb",
