@@ -1,4 +1,4 @@
-# generator-dockerjs-eb
+# generator-dockerjs-eb [![Build Status](https://travis-ci.org/SamVerschueren/generator-dockerjs-eb.svg?branch=master)](https://travis-ci.org/SamVerschueren/generator-dockerjs-eb)
 
 > Elastic Beanstalk generator for a Dockerized NodeJS application
 
