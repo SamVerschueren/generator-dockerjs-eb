@@ -7,4 +7,4 @@ app.use(function* () {
 	this.body = Promise.resolve('foo bar');
 });
 
-app.listen(80);
+app.listen(<%= port %>);
