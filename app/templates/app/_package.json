@@ -1,15 +1,21 @@
 {
   "name": "<%= functionName %>",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "<%= functionDescription %>",
   "license": "MIT",
   "author": {
     "name": "<%= name %>",
     "email": "<%= email %>"
   },
+  "engines": {
+    "node": ">=4"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+    "index.js"
+  ],
   "keywords": [
 <% keywords.forEach(function(keyword, i) { -%>
     "<%= keyword %>"<%= i < keywords.length-1 ? ',' : '' %>

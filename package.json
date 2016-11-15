@@ -9,6 +9,12 @@
     "email": "sam.verschueren@gmail.com",
     "url": "github.com/SamVerschueren"
   },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo"
+  },
   "files": [
     "app"
   ],
@@ -25,6 +31,15 @@
   "dependencies": {
     "moment": "^2.10.6",
     "uppercamelcase": "^1.1.0",
-    "yeoman-generator": "^0.20.3"
+    "yeoman-generator": "^0.24.1"
+  },
+  "devDependencies": {
+    "xo": "*"
+  },
+  "xo": {
+    "esnext": true,
+    "ignores": [
+      "app/templates/**"
+    ]
   }
 }
