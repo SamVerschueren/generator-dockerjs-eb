@@ -1,5 +1,5 @@
-# NodeJS 4.x
-FROM    node:4
+# NodeJS 6.x
+FROM    node:6
 
 # Copy the code
 COPY    ./app /app
