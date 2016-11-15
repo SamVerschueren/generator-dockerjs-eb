@@ -56,6 +56,10 @@ module.exports = class extends yeoman.Base {
 			this.fs.copyTpl(`${this.templatePath()}/**`, this.destinationPath(), tpl);
 
 			// Rename the files
+			mv('editorconfig', '.editorconfig');
+			mv('dockerignore', '.dockerignore');
+			mv('gitattributes', '.gitattributes');
+			mv('gitignore', '.gitignore');
 			mv('app/_package.json', 'app/package.json');
 		});
 	}
