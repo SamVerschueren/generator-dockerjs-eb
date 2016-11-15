@@ -27,7 +27,6 @@ module.exports = class extends yeoman.Base {
 				name: 'port',
 				message: 'What\'s the port the application will be runnig on?',
 				default: 8080,
-				type: 'Number',
 				validate: input => input && (!isNaN(input) || input.match(/[1-9][0-9]+/))
 			},
 			{
